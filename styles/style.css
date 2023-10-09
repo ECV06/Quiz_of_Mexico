@@ -7,10 +7,11 @@ body{
 }
 #quiz{
     background:rgb(247, 244, 240);
-    width: 40rem;
-    padding: 4rem;
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
     text-align: center;
-    justify-content: center;
 }
 h1{
     color: rgb(98, 112, 236);
@@ -46,7 +47,12 @@ h1{
     font-size: 15px;
     border-radius: 0px;
     margin: 10px;
-    position:relative;
-    left: 540px;
+    position: left;
+}
+@media screen and (max-width: 400px) {
+    #quiz{
+        width: 100%;
+    }
+    
 }
 
